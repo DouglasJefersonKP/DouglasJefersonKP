@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/*   Formatação de texto    */
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #262020;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 30;
+    color: white;
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 15;
+    color: white;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 15;
+    color: white;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+.cabecaPe { 
+    display: flex;
+    justify-content: center;
+    background-color: #161212;
+    margin: 0px;
+    color: white;
+}
+
+.cor {
+    background-color: #161212;
+    margin: 0px;
+    justify-content: center;
+    display: flex;
+} 
+
+.container {
+    margin: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+.espaço {
+    padding: 0px 15px 0px 15px; 
+    color: white;
+}
+
+.logo {
+    background-color: blue;
+}
+/* Config Imagens */
+
+img {
+  border: 8px solid white;
+  box-shadow: 1px 1px 4px black;
+  width: 50%;
+  height: 50%;
+}
